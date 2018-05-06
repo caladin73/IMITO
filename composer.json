@@ -1,0 +1,22 @@
+{
+    "name": "thegingerdk/poject-kolding-images",
+    "authors": [
+        {
+            "name": "Mike Fosmark",
+            "email": "accounts@theginger.dk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "App/app.php",
+            "App/Controllers",
+            "App/Models",
+            "Config"
+        ],
+        "files": [
+            "App/Routes/api.php",
+            "App/Routes/web.php"
+        ]
+    }
+}
